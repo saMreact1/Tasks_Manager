@@ -1,0 +1,47 @@
+<div class="overlay">
+    <div class="container">
+        <div class="title">
+            <h2>Create New Task</h2>
+            <span (click)="close()">❌</span>
+        </div>
+        <div class="task-info">
+            <h5>Task info</h5>
+            <input [(ngModel)]="taskTitle" type="text" class="title" placeholder="Add a title">
+            <input type="text" class="bio" placeholder="Write a short description">
+        </div>
+    
+        <div class="priority">
+            <h5>Priority</h5>
+            <div class="radio">
+                <span>
+                    <input type="radio" value="Low" [(ngModel)]="priority">
+                    <span class="label">Low</span>
+                </span>
+    
+                <span>
+                    <input type="radio" value="Medium" [(ngModel)]="priority">
+                    <span class="label">Medium</span>
+                </span>
+    
+                <span>
+                    <input type="radio" value="High" [(ngModel)]="priority">
+                    <span class="label">High</span>
+                </span>
+    
+                <span>
+                    <input type="radio" value="Urgent" [(ngModel)]="priority">
+                    <span class="label">Urgent</span>
+                </span>
+            </div>
+        </div>
+    
+        <div class="timeline">
+            <h5>Set Timeline</h5>
+            <label for="from">From</label>
+            <input type="date" id="from" placeholder="06-04-1995">
+            <label for="to">To</label>
+            <input type="date" id="to" placeholder="06-04-1995">
+        </div>
+        <button class="create-task-btn" (click)="saveTask()">Create Task</button>
+    </div>
+</div>

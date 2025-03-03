@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    width: max-content;
+    /* height: 867px; */
+    padding: 20px;
+    margin: 2rem auto 0;
+    border-radius: 12px;
+    background-color: #fff;
+}
+.container .title {
+    display: flex;
+    justify-content: space-between;
+}
+.container h2 {
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 3%;
+    margin-bottom: 1.5rem;
+}
+
+.task-info {
+    width: 480px;
+    height: 168px;
+    margin-bottom: 1.5rem;
+}
+h5 {
+    color: #111111;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    margin-bottom: .4rem;
+}
+.task-info input {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #868686;
+}
+.task-info .bio {
+    height: 78px;
+    margin-top: .5rem;
+}
+
+.priority .radio {
+    display: grid;
+    width: 155px;
+    height: 208px;
+    gap: 16px;
+    border-radius: 12px;
+    border: 1px solid #868686;
+    padding: 20px;
+}
+.priority .radio input {
+    margin-right: 14px;
+}
+.priority .label, label {
+    font-size: 14px;
+}
+
+.timeline {
+    display: grid;
+    width: 480px;
+    height: 252px;
+    /* gap: 24px; */
+    border-radius: 12px;
+    border: #868686 1px solid;
+    padding: 16px;
+    margin-top: 1.7rem;
+    margin-bottom: 2rem;
+}
+.timeline input {
+    width: 448px;
+    height: 50px;
+    justify-content: space-between;
+    border-radius: 12px;
+    border: #868686 1px solid;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.create-task-btn {
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: max-content;
+    padding: 2rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 5;
+    cursor: pointer;
+}
