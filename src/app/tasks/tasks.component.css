@@ -136,3 +136,67 @@ select {
     border: none;
     outline: none;
 }
+
+
+/* MOBILE RESPONSIVENESS */
+/* MOBILE RESPONSIVENESS */
+/* MOBILE RESPONSIVENESS */
+
+@media screen and (max-width: 820px) {
+    .container {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .add-task-btn {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .container h3 {
+        font-size: 16px;
+    }
+
+    .task-container {
+        padding: 5px;
+    }
+    table {
+        margin-top: 0;
+        font-size: 14px;
+        line-height: 13px;
+    }
+    th, td {
+        padding: 10px 5px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .add-task-btn {
+        padding: 8px;
+        font-size: 11px;
+    }
+
+    .container h3 {
+        font-size: 13px;
+    }
+
+    table {
+        font-size: 11px;
+    }
+    .status {
+        font-size: 11px;
+    }
+    .priority p {
+        padding: 5px;
+    }
+
+    .delete-btn img {
+        height: 15px;
+        width: 15px;
+    }
+
+    .container {
+        width: 90%;
+    }
+}

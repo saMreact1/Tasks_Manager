@@ -7,7 +7,7 @@
         <div class="task-info">
             <h5>Task info</h5>
             <input [(ngModel)]="taskTitle" type="text" class="title" placeholder="Add a title">
-            <input type="text" class="bio" placeholder="Write a short description">
+            <textarea class="bio" placeholder="Write a short description"></textarea>
         </div>
     
         <div class="priority">
@@ -35,13 +35,13 @@
             </div>
         </div>
     
-        <div class="timeline">
+        <!-- <div class="timeline">
             <h5>Set Timeline</h5>
             <label for="from">From</label>
             <input type="date" id="from" placeholder="06-04-1995">
             <label for="to">To</label>
             <input type="date" id="to" placeholder="06-04-1995">
-        </div>
+        </div> -->
         <button class="create-task-btn" (click)="saveTask()">Create Task</button>
     </div>
 </div>
