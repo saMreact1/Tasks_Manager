@@ -7,6 +7,7 @@ A simple and efficient **Task Manager Web Application** built using **Angular**.
 ## 🚀 Features
 
 ✔️ **Add New Tasks**  
+✔️ **Edit & Update Tasks**  
 ✔️ **Mark Tasks as Completed or Pending**  
 ✔️ **Set Priority Levels** (Low, Medium, High, Urgent)  
 ✔️ **Save Tasks in LocalStorage** (Persistent after refresh)  
