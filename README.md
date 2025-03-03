@@ -21,3 +21,15 @@ A simple and efficient **Task Manager Web Application** built using **Angular**.
 4️⃣ **Tasks Stay Saved – Your tasks are stored in localStorage for persistence.**
 
 ---
+
+## 🏗️ Future Enhancements
+🚀 **User Authentication - Allow users to sign in and manage tasks.**
+📅 **Due Dates & Reminders - Add deadlines for tasks.**
+📊 **Task Analytics - Track productivity with insights.**
+
+---
+
+## 📞 Contact
+**📧 Email:** your.email@example.com
+**🐙 GitHub:** yourusername
+**🌐 Website:** yourwebsite.com
